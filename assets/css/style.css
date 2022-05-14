@@ -9,3 +9,17 @@ body {
     font-family: 'Heebo', sans-serif;
     font-weight: 300;
 }
+
+/*logo and heading style*/
+
+h1 { font-family:Anton, sans-serif;
+     text-transform: uppercase;
+    }
+#gym-logo {
+    float: left;
+    color:rgb(0, 255, 51) ;
+    letter-spacing: 8px;
+    font-size: 280%;
+    text-shadow: 4px 4px 4px black;
+
+}
