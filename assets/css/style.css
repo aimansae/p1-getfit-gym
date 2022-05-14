@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
 }
+
 body {
     font-family: 'Heebo', sans-serif;
     font-weight: 300;
@@ -13,18 +14,23 @@ body {
 
 /*logo and heading style*/
 
-h1, h2 { font-family:Anton, sans-serif;
-     text-transform: uppercase;
-    }
+h1,
+h2 {
+    font-family: Anton, sans-serif;
+    text-transform: uppercase;
+}
+
 #gym-logo {
     float: left;
-    color:rgb(0, 255, 51) ;
+    color: rgb(0, 255, 51);
     letter-spacing: 8px;
     font-size: 280%;
     text-shadow: 4px 4px 4px #fff;
-    margin-left: 30px;}
+    margin-left: 30px;
+}
 
-#gym-logo, #nav-links {
+#gym-logo,
+#nav-links {
     line-height: 90px;
 
 }
@@ -33,13 +39,15 @@ h1, h2 { font-family:Anton, sans-serif;
     letter-spacing: 6px;
     font-size: 140%;
 }
+
 #nav-links li {
     float: right;
     text-transform: uppercase;
     list-style-type: none;
     margin-right: 30px;
-    
+
 }
+
 li a {
     text-decoration: none;
     color: #fff;
@@ -47,21 +55,29 @@ li a {
 
 }
 
-#nav-links a.highlight:hover { color: rgb(0, 255, 51); font-size: 17px;}
-#nav-links a.active { color:  rgb(0, 255, 51); text-decoration: underline 1px solid #fff;}
+#nav-links a.highlight:hover {
+    color: rgb(0, 255, 51);
+    font-size: 17px;
+}
+
+#nav-links a.active {
+    color: rgb(0, 255, 51);
+    text-decoration: underline 1px solid #fff;
+}
 
 /*background image styling*/
 #hero-image {
-    width:100%;
-    height:700px;
+    width: 100%;
+    height: 700px;
     background: url('../images/man-woman-image.jpg') no-repeat center center;
 }
 
 #first-container {
     width: 100%;
     height: 900px;
-    
+
 }
+
 /* oblique line divider */
 
 #mini-line {
@@ -76,20 +92,44 @@ li a {
     text-align: left;
     width: 100%;
     height: 200px;
-    color:#fff;
+    color: #fff;
     font-weight: bold;
     background-color: rgb(4, 9, 9);
     transform: skewY(180deg);
-    
+
 
 }
-#about h2{
+
+h2 {
     font-size: 210%;
-    font-weight:bold;
+    font-weight: bold;
     letter-spacing: 6px;
     margin-left: 15px;
+
+}
+
+/*style for our services */
+
+#extra-services {
+    height: 600px;
+}
+
+#crossfit {
+    padding top: 33px;
+    width: 33%;
+    float: left;
+}
+#nutritionist {
+    padding top: 33px;
+    width: 33%;
+    float: right;
+}
+
+#group-courses {
+    padding top: 33px;
+    width: 33%;
+    margin: 0 auto;
     
 
-    
 }
 
