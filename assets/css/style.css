@@ -39,7 +39,7 @@ h1 { font-family:Anton, sans-serif;
 }
 li a {
     text-decoration: none;
-    color: black;
+    color: #fff;
     font-weight: 700;
 
 }
@@ -47,3 +47,9 @@ li a {
 #nav-links a.highlight:hover { color: rgb(0, 255, 51); font-size: 28px;}
 #nav-links a.active { color:  rgb(0, 255, 51); text-decoration: underline 1px solid black;}
 
+/*background image styling*/
+#hero-image {
+    width:100%;
+    height:700px;
+    background: url('../images/man-woman-image.jpg') no-repeat center center;
+}
