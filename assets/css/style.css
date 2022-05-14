@@ -20,6 +20,30 @@ h1 { font-family:Anton, sans-serif;
     color:rgb(0, 255, 51) ;
     letter-spacing: 8px;
     font-size: 280%;
-    text-shadow: 4px 4px 4px black;
+    text-shadow: 4px 4px 4px black;}
+#gym-logo, #nav-links {
+    line-height: 75px;
 
 }
+
+#nav-links {
+    letter-spacing: 6px;
+    font-size: 140%;
+}
+#nav-links li {
+    float: right;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-right: 30px;
+    
+}
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+
+#nav-links a.highlight:hover { color: rgb(0, 255, 51); font-size: 28px;}
+#nav-links a.active { color:  rgb(0, 255, 51); text-decoration: underline 1px solid black;}
+
