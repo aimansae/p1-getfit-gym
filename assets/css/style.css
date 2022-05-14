@@ -20,9 +20,12 @@ h1 { font-family:Anton, sans-serif;
     color:rgb(0, 255, 51) ;
     letter-spacing: 8px;
     font-size: 280%;
-    text-shadow: 4px 4px 4px black;}
+    text-shadow: 4px 4px 4px #fff;
+margin-left: 30px;}
+
 #gym-logo, #nav-links {
-    line-height: 75px;
+    line-height: 90px;
+    margin-left: 30px;
 
 }
 
@@ -44,12 +47,18 @@ li a {
 
 }
 
-#nav-links a.highlight:hover { color: rgb(0, 255, 51); font-size: 28px;}
-#nav-links a.active { color:  rgb(0, 255, 51); text-decoration: underline 1px solid black;}
+#nav-links a.highlight:hover { color: rgb(0, 255, 51); font-size: 17px;}
+#nav-links a.active { color:  rgb(0, 255, 51); text-decoration: underline 1px solid #fff;}
 
 /*background image styling*/
 #hero-image {
     width:100%;
     height:700px;
     background: url('../images/man-woman-image.jpg') no-repeat center center;
+}
+
+#first-container {
+    width: 100%;
+    height: 900px;
+    background-color: aqua;
 }
