@@ -172,4 +172,21 @@ h4{
     padding-left: 80px;
     }
 
-    
+footer {
+    height: 100px;
+    background: black;
+}    
+.social-media {
+    text-align: center;
+
+}
+.social-media li {
+    display: inline;
+}
+.social-media i {
+    font-size: 180%;
+    margin-top: 4%;
+    padding: 5%;
+    color: rgb(0, 255, 51);
+
+}
