@@ -144,17 +144,32 @@ h3{
     font-size: 30px;
 }
 #instructors-box {
-    height:600px;
+    height:400px;
 }
 
 #image-box {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
     text-align: center;
-    padding-top: 30px;
-    background-color: black;
+   
 }
-.trainer-image {
-    width: 100%;
-    padding: 5px;
-    border-radius: 50% ;
+.trainer-image, h4 {
+    width: 50%;
+    border-radius: 60% ;
+  margin-left: px;
+  transition: transform .2s;}
+    
+
+.trainer-image:hover {
+    transform: scale(1.1)
 }
+h4{
+    letter-spacing: 3px;
+    font-weight:bold;
+    padding-left: 80px;
+    }
+
+    
