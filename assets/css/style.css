@@ -80,7 +80,7 @@ li a {
 
 /* oblique line divider */
 
-#mini-line {
+.mini-line {
     position: absolute;
     background: rgb(0, 255, 51);
     height: 10px;
@@ -111,25 +111,37 @@ h2 {
 /*style for our services */
 
 #extra-services {
-    height: 600px;
+    height: 300px;
+}
+#box {
+    display: flex;
+    text-align: justify;
 }
 
-#crossfit {
-    padding top: 33px;
-    width: 33%;
-    float: left;
-}
-#nutritionist {
-    padding top: 33px;
-    width: 33%;
-    float: right;
-}
+#left-crossfit {
+    padding-top: 30px;
+    width: 30%;
+    margin-right: 20px;
 
-#group-courses {
-    padding top: 33px;
+}
+#right-nutritionist {
+    padding-top: 30px;
+    width: 30%;
+    margin-right: 20px;
+    }
+
+#center-group-courses {
+    padding-top: 30px;
     width: 33%;
-    margin: 0 auto;
+    margin-right: 20px;
     
-
 }
+h3{
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+    color: rgb(0, 255, 51);
+    font-size: 30px;
+}
+
 
