@@ -113,6 +113,7 @@ h2 {
 #extra-services {
     height: 300px;
 }
+
 #box {
     display: flex;
     text-align: justify;
@@ -124,27 +125,30 @@ h2 {
     margin-right: 20px;
 
 }
+
 #right-nutritionist {
     padding-top: 30px;
     width: 30%;
     margin-right: 20px;
-    }
+}
 
 #center-group-courses {
     padding-top: 30px;
     width: 33%;
     margin-right: 20px;
-    
+
 }
-h3{
+
+h3 {
     text-align: center;
     padding-bottom: 10px;
     letter-spacing: 3px;
     color: rgb(0, 255, 51);
     font-size: 30px;
 }
+
 #instructors-box {
-    height:400px;
+    height: 400px;
 }
 
 #image-box {
@@ -154,38 +158,45 @@ h3{
     align-content: center;
     justify-content: space-between;
     text-align: center;
-   
+
 }
-.trainer-image, h4 {
+
+.trainer-image,h4 {
     width: 50%;
-    border-radius: 60% ;
-  margin-left: px;
-  transition: transform .2s;}
-    
+    border-radius: 60%;
+    margin-left: px;
+    transition: transform .2s;
+}
+
 
 .trainer-image:hover {
     transform: scale(1.1)
 }
-h4{
+
+h4 {
     letter-spacing: 3px;
-    font-weight:bold;
+    font-weight: bold;
     padding-left: 80px;
-    }
+}
 
 footer {
-    height: 100px;
-    background: black;
-}    
-.social-media {
-    text-align: center;
+    height: 200px;
 
 }
-.social-media li {
+
+.social-media {
+    text-align: center;
+    background: black;
+
+}
+
+.social-media>li {
     display: inline;
 }
+
 .social-media i {
     font-size: 180%;
-    margin-top: 4%;
+    margin: 4%;
     padding: 5%;
     color: rgb(0, 255, 51);
 
