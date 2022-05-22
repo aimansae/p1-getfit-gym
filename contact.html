@@ -32,17 +32,24 @@
 
       
             <form id="form">
+                <p><strong>Do you need additional information or want to join our club?</strong></p> <br>
                 <h2>Contact Us</h2>
-                <h3>Do you need additional information or want to join our club? <br>Fill in the form below and we will contact you soon!</h3>
+                
+                <p><strong>Fill out the form:</strong></p><br>
                 <hr>
+                <label for="name">Name and Surname*</label>
                 <input type="text" class="text-input" placeholder="Name and Surname" name="name" required>
+                <label for="email">Your Email*</label>
                 <input type="email" class="text-input" placeholder="Enter your email" name="user-email" required>
+                <label for="number">Your Number</label>
                 <input type="number" class="text-input" placeholder="Enter your phone" name="phone" maxlength="10">
+                <label for="reason-of-contact">Reason of contact</label>
                 <select name="reason-of-contact" class="text-input" value="Reason of contact" required>
                     <option>Standard Subscription</option>
-                    <option>Standard Subscription</option>
+                    <option>Premium Subscription</option>
                     <option>Other</option>
                 </select> 
+                <label for="massage">Write your message</label>
                 <textarea name="message" class="text-input" placeholder="Write your message here" rows="10" cols="30"></textarea>
                 <input type="submit" name="submit" value="SEND">
 
