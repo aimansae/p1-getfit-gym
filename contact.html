@@ -19,47 +19,52 @@
         </a>
         <nav id="nav-links">
             <ul>
-                <li><a href="contact.html" class="highlight active">Contact Us</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html" class="highlight"
+                        aria-label="Link for contact page for info or subscription">Contact Us</a></li>
+                <li><a href="pricing.html" class="highlight"
+                        aria-label="Link for page to consult pricing options">Pricing</a></li>
+                <li><a href="index.html" class="highlight active" aria-label="Link for main home page">Home</a></li>
 
             </ul>
         </nav>
 
     </header>
-   
+    <!--contact us form structure-->
+
     <section id="contact-section">
 
-      
-            <form id="form">
-                <p><strong>Do you need additional information or want to join our club?</strong></p> <br>
-                <h2>Contact Us</h2>
-                
-                <p><strong>Fill out the form:</strong></p><br>
-                <hr>
-                <label for="name">Name and Surname*</label>
-                <input type="text" class="text-input" id="name" placeholder="Name and Surname" name="name" required>
-                <label for="email">Your Email*</label>
-                <input type="email" class="text-input" id="email" placeholder="Enter your email" name="user-email" required>
-                <label for="number">Your Number</label>
-                <input type="number" class="text-input" id="number" placeholder="Enter your phone" name="phone" maxlength="10">
-                <label for="reason-of-contact">Reason of contact</label>
-                <select name="reason-of-contact" class="text-input" value="Reason of contact" required ara-label="select reason of contact">
-                    <option value="standard_subscription">Standard Subscription</option>
-                    <option value="premium_subscription">Premium Subscription</option>
-                    <option>Other</option>
-                </select> 
-                <label for="massage">Write your message</label>
-                <textarea name="message" class="text-input" id="text-area" style="resize:none;"></textarea>
-                <input type="submit" name="submit" value="SEND" aria-label="button to send the form">
 
-                
+        <form id="form">
+            <p><strong>Do you need additional information or want to join our club?</strong></p> <br>
+            <h2>Contact Us</h2>
+
+            <p><strong>Fill out the form:</strong></p><br>
+            <hr>
+            <label for="name">Name and Surname*</label>
+            <input type="text" class="text-input" id="name" placeholder="Name and Surname" name="name" required>
+            <label for="email">Your Email*</label>
+            <input type="email" class="text-input" id="email" placeholder="Enter your email" name="user-email" required>
+            <label for="number">Your Number</label>
+            <input type="number" class="text-input" id="number" placeholder="Enter your phone" name="phone">
+            <label for="reason-of-contact">Reason of contact</label>
+            <select name="reason-of-contact" id="reason-of-contact" class="text-input" required>
+                <option value="">Reason of Contact</option>
+                <option value="standard_subscription">Standard Subscription</option>
+                <option value="premium_subscription">Premium Subscription</option>
+                <option>Other</option>
+            </select>
+            <label for="text-area">Write your message</label>
+            <textarea name="message" class="text-input" id="text-area" style="resize:none;"></textarea>
+            <input type="submit" name="submit" value="SEND" aria-label="button to send the form">
 
 
-            </form>
-        
+
+
+        </form>
+
     </section>
-    
+
+    <!--footer-->
 
     <footer>
         <ul class="social-media">
