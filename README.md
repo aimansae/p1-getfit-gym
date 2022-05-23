@@ -56,8 +56,16 @@ This project is build using 2 main technologie: HTML5 and CSS3.
 
 ## Pricing
 
-* The main purpose of the pricing page is to show he pricing list and the services included within the prices shown.
+* The main purpose of the pricing page is to show the pricing list and the services included within the prices shown.
 
 * The user will be able to chose between 2 offers: Standard and Premium and by clicking on the Join button he is redirected to the contact form.
 
 >> foto contact form
+
+## Contact Us Page
+
+* The contact form allows the consumer to fill in with their details in case they have queries and require assintance.
+
+*Furthermore the forms is styled to enable the user to immediately be able to select their preffered deal thanks to "Select" element.
+>>> contact for foto
+

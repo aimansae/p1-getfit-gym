@@ -131,7 +131,7 @@ h2 {
     font-size: 210%;
     font-weight: bold;
     letter-spacing: 6px;
-    padding: 10px;
+    padding: 10px 10px;
 
 }
 
@@ -166,7 +166,7 @@ h3 {
 /* instructors section */
 
 #instructors-box {
-    height: 400px;
+    height: 500px;
 }
 
 #images-box {
@@ -195,7 +195,7 @@ h4 {
 h4 {
     letter-spacing: 3px;
     font-weight: bold;
-    padding-left: 80px;
+    padding-left: 90px;
 }
 
 /* footer styling */
@@ -374,4 +374,23 @@ input[type=submit] {
 input[type=submit]:hover {
     color: #fff;
     font-size: 30px;
+}
+/*form dump stryling*/
+#filled-form-section {
+    background: url('../images/woman-mirror-workout.jpg') no-repeat;
+    width: 100%;
+    height: 950px;
+    background-size: cover;
+    
+}
+
+#thanks-message{
+    position: absolute;
+    text-align: center;
+    color:#fff;
+    font-size: large;
+    top: 50%;
+    left:40%;
+
+
 }
