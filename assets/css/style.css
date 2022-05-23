@@ -118,13 +118,20 @@ li a {
     transform: skewY(180deg);
     padding-left: 10px;
 
-
-
 }
 
 #about ul {
     text-transform: uppercase;
     text-align: center;
+    overflow: hidden;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+#about ul li{
+    display: inline-block;
+    margin-right: 25px;
+    text-shadow: 0px 6px 15px #fff;
 }
 
 h2 {
@@ -220,6 +227,9 @@ footer {
     font-size: 180%;
     color: rgb(0, 255, 51);
 
+}
+.social-media i:hover{
+    text-shadow: 0px 6px 15px #fff;
 }
 
 /*pricing page*/
@@ -347,6 +357,9 @@ footer {
 
 .text-input:hover {
     border: solid 4px rgb(0, 255, 51);
+}
+option {
+    color: black;
 }
 
 #text-area {
