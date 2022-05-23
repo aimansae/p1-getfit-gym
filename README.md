@@ -3,7 +3,39 @@
 This is the offical Get Fit Gym website. As from it's title you can notice that this fictional site provides services related to fitness, group courses and consulting regarding nutrition and overall personal training. 
 The goas is to create a welcoming and user frendly "place" for people who need motivation in order to achieve their fitness goals in Amsterdam and other surronding cities.
 
+Please find the live progect [here]()
+
 This website contains 3 main pages: Home, Pricing and Contact us form. 
+# UX (User Experience)
+## Users Stories
+1. ### First time visitor goal
+
+ * as a first time user I want to find an innovative looking gym website
+ * as a first time user I want to be able to easily navigate from different parts of the site
+ * as a first time user I want to be able contact or ask for information within a few steps
+
+ 2. ### Existing Users
+
+ * as a member I want to checkout if there are additional courses or fitness options
+ * as a member I want to be able to contact the Gym within a few steps
+ * as a member i want to be posted in case there are different pricing deals or offers.
+
+ ## Design
+ As this is my firts prject the style and structure is heavily based on Love Running project, especialle the header and the footer.
+
+ ### Colors Chosen
+
+ * the color used are mainly black, white and a neon shade of green (rgb...)
+ * this strong combination is functional to the content and were chosen to attract users attention immediately
+ * the colors, combined  with eye catching backgrounds foreshows the content of the website with no further reading
+ Please find the color palette: 
+ >>foto palette
+
+ ### Tipography
+
+ * Google Fonts [Anton](https://fonts.google.com/specimen/Anton) and [Heebo](https://fonts.google.com/specimen/Heebo) are used. Fonts are directly imported in the top of the CSS stylesheet with Sans-srif as fallback font.
+ ### Images
+ * Site's pages are styled with dramatic eye-catching background images in contrast with the contents, dark and wthite font colors.
 
 ## Project Description:
 
@@ -69,3 +101,14 @@ This project is build using 2 main technologie: HTML5 and CSS3.
 *Furthermore the forms is styled to enable the user to immediately be able to select their preffered deal thanks to "Select" element.
 >>> contact for foto
 
+## Form Dummp page
+
+* Te website contains a form tha when is filled in will redirect the consumer to a thank you message page.
+* This sumbittimg message is created linking the form button to an internal html page
+>>> form dump foto
+
+## Technologies used
+### Two main languages : 
+
+- [Html5](https://en.wikipedia.org/wiki/HTML5) 
+- [CSS3](https://en.wikipedia.org/wiki/CSS3)
