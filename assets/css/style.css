@@ -54,7 +54,7 @@ li a {
 
 #nav-links a.highlight:hover {
     color: rgb(0, 255, 51);
-    font-size: 30px;
+    font-size: 25px;
     text-shadow: 15px 9px 13px #fff;
 }
 
@@ -111,7 +111,7 @@ li a {
 #about {
     text-align: left;
     width: 100%;
-    height: 210px;
+    height: 20%;
     color: #fff;
     font-weight: bold;
     background-color: rgb(4, 9, 9);
@@ -138,8 +138,13 @@ h2 {
     font-size: 210%;
     font-weight: bold;
     letter-spacing: 6px;
-    padding: 10px 10px;
+    padding:10px;
+    margin-left: 2px;
+    
 
+}
+#sevices-title { 
+    margin-top: 5px;
 }
 
 /*style for our-services */
@@ -407,3 +412,105 @@ input[type=submit]:hover {
 
 
 }
+
+/*media queries*/
+
+@media screen and (max-width:1100px) {
+    #gym-logo{
+        font-size: 200%;
+        
+    }
+    #nav-links{
+        
+        float: right;
+        font-size: 100%;
+        letter-spacing: normal;
+    }
+
+    #nav-links a.highlight:hover {
+        color: rgb(0, 255, 51);
+        font-size: unset;
+        text-shadow: 15px 9px 13px #fff;
+    }
+    
+    #nav-links a.active {
+        color: rgb(0, 255, 51);
+        font-size: 15px;
+        text-shadow: 15px 9px 13px #fff;
+    }
+ #services-box {
+     width:65%;
+     height:500px;
+     margin: 0 auto;
+ }
+
+ #sevices-title{
+     padding: 20px 0px;
+     margin: 0;}
+ 
+ 
+#left-crossfit, #right-nutritionist  {
+         width:100% ;
+         float:left;
+         padding:0;
+     }
+
+     #center-group-courses {
+         clear:both;
+         width:100%;
+         float:left;
+         padding:0;
+     }
+    }
+/*smaller devices*/
+
+@media screen and (min-width:0) and (max-width:600px) {
+#nav-links{
+
+   
+    float: left;
+    font-size: 100%;
+    letter-spacing: normal;
+    margin-left:15px
+}
+#nav-links a.highlight:hover {
+    color: rgb(0, 255, 51);
+    font-size: unset;
+    text-shadow: 15px 9px 13px #fff;
+}
+
+#nav-links a.active {
+    color: rgb(0, 255, 51);
+    font-size: 25px;
+    text-shadow: 15px 9px 13px #fff;
+}
+
+
+#services-box {
+    width:90%;
+    height:600px;
+    margin: 0;
+}
+#left-crossfit, right-nutritionist{
+    text-align: center;
+    width: inherit;
+
+}
+#hero-image {
+    width: 100%;
+    height: inherit;
+    background: url('../images/man-woman-image.jpg') no-repeat center center;
+}
+#gym-logo{
+    font-size: 200%;
+
+}
+}
+
+
+
+
+
+
+
+
