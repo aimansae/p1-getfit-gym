@@ -111,13 +111,14 @@ li a {
 
 #about {
     text-align: left;
-    width: 100%;
-    height: 20%;
+   
+    padding: 2%;
     color: #fff;
     font-weight: bold;
     background-color: rgb(4, 9, 9);
     transform: skewY(180deg);
-    padding-left: 10px;
+    overflow-y: auto;
+    
 
 }
 
@@ -139,7 +140,7 @@ h2 {
     font-size: 210%;
     font-weight: bold;
     letter-spacing: 6px;
-    padding: 10px;
+    padding: 2%;
     margin-left: 2px;
 
 
@@ -153,6 +154,7 @@ h2 {
 
 #services-box {
     height: 300px;
+    padding:2%;
 }
 
 #box {
@@ -163,8 +165,8 @@ h2 {
 #left-crossfit,
 #right-nutritionist,
 #center-group-courses {
-    padding: 40px;
-    width: 25%;
+    padding: 2%;
+    width:33%;
 
 }
 
@@ -420,7 +422,7 @@ input[type=submit]:hover {
 
 /*media queries*/
 
-@media screen and (min-width:480) (max-width:100px) {
+@media screen and (min-width:480px) and (max-width:1000px) {
     #gym-logo {
         font-size: 200%;
 
@@ -448,6 +450,11 @@ input[type=submit]:hover {
         
         background-size:cover;
     }
+    #about {padding: 0px 2px;}
+    #about ul li {
+        display:revert;
+    }
+
     #services-box {
         width: 65%;
         height: 500px;
@@ -477,19 +484,16 @@ input[type=submit]:hover {
 
 /*smaller devices*/
 
-@media screen and (min-width:0) and (max-width:480px) {
+@media screen and (min-width:0) and (max-width:555px) {
     #nav-links {
 
 
         float: left;
         font-size: 100%;
         letter-spacing: normal;
-        margin-left: 15px
-    }
-
-    #nav-links {
-        line-height: 4px;
-    }
+        margin-left: 2%;
+        line-height: 4px;}
+   
 
     #nav-links a.highlight:hover {
         color: rgb(0, 255, 51);
@@ -502,10 +506,20 @@ input[type=submit]:hover {
         font-size: 25px;
         text-shadow: 15px 9px 13px #fff;
     }
+    #gym-logo,
+#nav-links {
+    line-height: 50px;}
+
+
+    #first-section {
+        width:auto;
+    }
+    .join-now {
+    font-size:100%;}
 
 
     #services-box {
-        width: 90%;
+        width: 100%;
         height: 600px;
         margin: 0;
     }
@@ -525,6 +539,18 @@ input[type=submit]:hover {
 
     #gym-logo {
         font-size: 200%;
+
+    }
+    #about {
+        padding-right: 4%;
+    }
+    
+    #about p {
+        text-align: justify;
+
+    }
+    #about ul {
+        text-align: left;
 
     }
 }
