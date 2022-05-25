@@ -250,19 +250,21 @@ footer {
 #pricing-container {
 
     background: url('../images/boxing-gym-image.png') no-repeat center center;
+    background-size: cover;
 
 }
 
 
 .pricing-lists {
     display: flex;
-    justify-content: center;
+    
     width: 100%;
 }
 
-.columns {
-    width: 33%;
-    padding: 5rem;
+.columns1, .columns2 {
+    width: 100%;
+    padding: 6%;
+    margin-top: 15%;
 
 }
 
@@ -321,7 +323,7 @@ footer {
 .offers-title {
     position: absolute;
     color: #fff;
-    text-align: center;
+    left:40%;
 
 }
 
@@ -480,7 +482,12 @@ input[type=submit]:hover {
         width:100%;
         justify-content:center;
     }
-
+/* pricing page responsivness*/
+.pricing-lists {
+    
+    
+    width: 100%;
+}
 
 }
 
@@ -601,5 +608,33 @@ justify-content:center;
     font-size:80%;
     margin: 8%;}
     
-    }
+    
+
+
+
+ /*pricing responsiveness*/
+
+  
+
+
+
+.pricing-lists {
+    display:grid;
+    width:80%;
 }
+.offers-title{
+    left:unset;
+    margin-left:15%;
+    }
+.columns1, .columns2 {
+
+width:80%;
+margin-top:15%;
+margin-left: 15%;
+text-align:center;
+  }
+  .price li {
+    padding: 10px;
+  }
+
+  }
