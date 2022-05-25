@@ -75,7 +75,7 @@ li a {
 
 #first-section {
     width: 100%;
-    height: 900px;
+    
 
 }
 
@@ -153,7 +153,7 @@ h2 {
 /*style for our-services */
 
 #services-box {
-    height: 300px;
+    
     padding:2%;
 }
 
@@ -456,30 +456,31 @@ input[type=submit]:hover {
     }
 
     #services-box {
-        width: 65%;
+        width: 90%;
         height: 500px;
-        margin: 0 auto;
+        padding-top:2%;
+        
+    }
+    h2{
+        margin: 2%;
     }
 
-    #sevices-title {
-        padding: 20px 0px;
-        margin: 0;
+    #box{
+        display: grid;
+    }
+    #left-crossfit, #right-nutritionist {
+        float:left;
+        width:100%;
+        justify-content:center;
+
+    }
+
+    #center-group-courses{
+        width:100%;
+        justify-content:center;
     }
 
 
-    #left-crossfit,
-    #right-nutritionist {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-group-courses {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
 }
 
 /*smaller devices*/
@@ -518,18 +519,8 @@ input[type=submit]:hover {
     font-size:100%;}
 
 
-    #services-box {
-        width: 100%;
-        height: 600px;
-        margin: 0;
-    }
+  
 
-    #left-crossfit,
-    right-nutritionist {
-        text-align: center;
-        width: inherit;
-
-    }
 
     #hero-image {
         
@@ -553,4 +544,26 @@ input[type=submit]:hover {
         text-align: left;
 
     }
+    #services-box {
+        width: 90%;
+        height: 600px;
+        padding-top:2%;        
+    }
+    
+#box{
+    display:grid
+}
+    #left-crossfit, #right-nutritionist {
+        float:left;
+        width:100%;
+        justify-content:center;
+        
+
+    }
+    
+ #center-group-courses{
+        width:100%;
+justify-content:center;
+            }
+
 }
