@@ -70,6 +70,7 @@ li a {
     width: 100%;
     height: 700px;
     background: url('../images/man-woman-image.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 #first-section {
@@ -128,7 +129,7 @@ li a {
     font-weight: 900;
 }
 
-#about ul li{
+#about ul li {
     display: inline-block;
     margin-right: 25px;
     text-shadow: 0px 6px 15px #fff;
@@ -138,12 +139,13 @@ h2 {
     font-size: 210%;
     font-weight: bold;
     letter-spacing: 6px;
-    padding:10px;
+    padding: 10px;
     margin-left: 2px;
-    
+
 
 }
-#sevices-title { 
+
+#sevices-title {
     margin-top: 5px;
 }
 
@@ -233,7 +235,8 @@ footer {
     color: rgb(0, 255, 51);
 
 }
-.social-media i:hover{
+
+.social-media i:hover {
     text-shadow: 0px 6px 15px #fff;
 }
 
@@ -363,6 +366,7 @@ footer {
 .text-input:hover {
     border: solid 4px rgb(0, 255, 51);
 }
+
 option {
     color: black;
 }
@@ -393,35 +397,37 @@ input[type=submit]:hover {
     color: #fff;
     font-size: 30px;
 }
+
 /*form dump stryling*/
 #filled-form-section {
     background: url('../images/woman-mirror-workout.jpg') no-repeat;
     width: 100%;
     height: 950px;
     background-size: cover;
-    
+
 }
 
-#thanks-message{
+#thanks-message {
     position: absolute;
     text-align: center;
-    color:#fff;
+    color: #fff;
     font-size: large;
     top: 50%;
-    left:40%;
+    left: 40%;
 
 
 }
 
 /*media queries*/
 
-@media screen and (max-width:1100px) {
-    #gym-logo{
+@media screen and (min-width:480) (max-width:100px) {
+    #gym-logo {
         font-size: 200%;
-        
+
     }
-    #nav-links{
-        
+
+    #nav-links {
+
         float: right;
         font-size: 100%;
         letter-spacing: normal;
@@ -432,85 +438,93 @@ input[type=submit]:hover {
         font-size: unset;
         text-shadow: 15px 9px 13px #fff;
     }
-    
+
     #nav-links a.active {
         color: rgb(0, 255, 51);
         font-size: 15px;
         text-shadow: 15px 9px 13px #fff;
     }
- #services-box {
-     width:65%;
-     height:500px;
-     margin: 0 auto;
- }
-
- #sevices-title{
-     padding: 20px 0px;
-     margin: 0;}
- 
- 
-#left-crossfit, #right-nutritionist  {
-         width:100% ;
-         float:left;
-         padding:0;
-     }
-
-     #center-group-courses {
-         clear:both;
-         width:100%;
-         float:left;
-         padding:0;
-     }
+    #hero-image {
+        
+        background-size:cover;
     }
+    #services-box {
+        width: 65%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    #sevices-title {
+        padding: 20px 0px;
+        margin: 0;
+    }
+
+
+    #left-crossfit,
+    #right-nutritionist {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-group-courses {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+}
+
 /*smaller devices*/
 
-@media screen and (min-width:0) and (max-width:600px) {
-#nav-links{
+@media screen and (min-width:0) and (max-width:480px) {
+    #nav-links {
 
-   
-    float: left;
-    font-size: 100%;
-    letter-spacing: normal;
-    margin-left:15px
+
+        float: left;
+        font-size: 100%;
+        letter-spacing: normal;
+        margin-left: 15px
+    }
+
+    #nav-links {
+        line-height: 4px;
+    }
+
+    #nav-links a.highlight:hover {
+        color: rgb(0, 255, 51);
+        font-size: unset;
+        text-shadow: 15px 9px 13px #fff;
+    }
+
+    #nav-links a.active {
+        color: rgb(0, 255, 51);
+        font-size: 25px;
+        text-shadow: 15px 9px 13px #fff;
+    }
+
+
+    #services-box {
+        width: 90%;
+        height: 600px;
+        margin: 0;
+    }
+
+    #left-crossfit,
+    right-nutritionist {
+        text-align: center;
+        width: inherit;
+
+    }
+
+    #hero-image {
+        
+        background: url('../images/man-workout-dumbbell.jpg') no-repeat center center;
+        background-size:cover;
+    }
+
+    #gym-logo {
+        font-size: 200%;
+
+    }
 }
-#nav-links a.highlight:hover {
-    color: rgb(0, 255, 51);
-    font-size: unset;
-    text-shadow: 15px 9px 13px #fff;
-}
-
-#nav-links a.active {
-    color: rgb(0, 255, 51);
-    font-size: 25px;
-    text-shadow: 15px 9px 13px #fff;
-}
-
-
-#services-box {
-    width:90%;
-    height:600px;
-    margin: 0;
-}
-#left-crossfit, right-nutritionist{
-    text-align: center;
-    width: inherit;
-
-}
-#hero-image {
-    width: 100%;
-    height: inherit;
-    background: url('../images/man-woman-image.jpg') no-repeat center center;
-}
-#gym-logo{
-    font-size: 200%;
-
-}
-}
-
-
-
-
-
-
-
-
