@@ -486,7 +486,7 @@ input[type=submit]:hover {
     #thanks-message {
         left: 10%;
         top: 40%;
-        
+
     }
 
     #thanks-message p {
@@ -677,7 +677,7 @@ input[type=submit]:hover {
     footer {
         padding-bottom: 5%
     }
-}
+
 
 #thanks-message {
     font-size: 100%;
@@ -689,4 +689,9 @@ input[type=submit]:hover {
     font-size: larger;
     font-weight: 900;
 }
+}
+
+/*readme style*/
+.palette {
+    height:10px;
 }

@@ -6,7 +6,7 @@ The goas is to create a welcoming and user frendly "place" for people who need m
 Please find the live project [here](https://ui.dev/amiresponsive?url=https://aimansae.github.io/p1-getfit-gym/)
 
 This website contains 3 main pages: Home, Pricing and Contact us form. <br>
-![Responsove Mockup](/workspace/p1-getfit-gym/assets/images/ami-responsive-get-fyt-jym.png)
+![Responsive Mockup](assets/images/ami-responsive-get-fyt-jym.png)
 
 # UX (User Experience)
 ## Users Stories
@@ -31,8 +31,7 @@ This website contains 3 main pages: Home, Pricing and Contact us form. <br>
  * this strong combination is functional to the content and were chosen to attract users attention immediately
  * the colors, combined  with eye catching backgrounds foreshows the content of the website with no further reading
  Please find the color palette: 
- >>foto palette
-
+![Palette view](assets/images/color-palette.png)
  ### Tipography
 
  * Google Fonts [Anton](https://fonts.google.com/specimen/Anton) and [Heebo](https://fonts.google.com/specimen/Heebo) are used. Fonts are directly imported in the top of the CSS stylesheet with Sans-srif as fallback font.
@@ -55,22 +54,22 @@ This project is build using 2 main technologie: HTML5 and CSS3.
 * Te repitition of the header in all the pages will help the user to navigate accross pages without necessarily going back
 * The header contains the color pattern for all the links for a better visual experience.
 
->>>>foto of hether
+![Header Screenshot](assets/images/header-screenshot.png)
 
 ## Main LAnding homepage
 * The landing page presents a dramatic eye catching image which immediately gives the user an idea about what the website is about
-* in the right middle of the hero-image the user is able to click on Join Now button so he can immediately get to the contact/subscription page without checking the entire page.
->>>>foto hero image
+* in the right middle of the hero-image the user is able to click on Join Now button so he can immediately get to the contact/subscription page without checking the entire page. <br>
+![Hero-image Screenshot](assets/images/hero-image-screenshot.png)
 
 ## About us 
 * Right abot the Imge, you can find the "About Us" div that contains a brief description about the gym,locations and the main services.
 *This will allow the user to understand why Get Fit Gym is unique, therefore he should sign up.
->>> foto about us section
+![About-us Screenshot](assets/images/about-us-section-screenshot.png)
 
 ## Extra Services section
 * The second section provides a list of 3 additional services along with their description: Crossfit, Group courses and Nutritionist.
 *The purpose is to attract a bigger range of people showing  that alonside the basic gym services they can join more exciting courses.
->>>foto of extra services
+![Extra-services Screenshot](assets/images/extra-services-screenshot.png)
 
 ## Meet our Instructors Section
 * The third and last section contains 3 images representing the instructor: a female Personal trainer, a male Group Course Instructor and a Female Nutritionist.
@@ -79,14 +78,14 @@ This project is build using 2 main technologie: HTML5 and CSS3.
 
 * The Hover style applied on the images enhance the user experience even more.
 
->>> Foto or instrucotrs
+![Instructors Screenshot](assets/images/instructor-screenshot.png)
 
 ## The Footer
 
 * The footer section contains 3 link to the Gym's social media accounts : Facebook, Youtube and Instagram.
 * The relative links will open in a new tab and will allow the user to know about the gym even more.
 
->> footer foto
+![Footer Screenshot](assets/images/footer-screenshot.png)
 
 ## Pricing
 
@@ -94,23 +93,43 @@ This project is build using 2 main technologie: HTML5 and CSS3.
 
 * The user will be able to chose between 2 offers: Standard and Premium and by clicking on the Join button he is redirected to the contact form.
 
->> foto contact form
+![Pricing Screenshot](assets/images/pricing-screenshot.png)
 
 ## Contact Us Page
 
 * The contact form allows the consumer to fill in with their details in case they have queries and require assintance.
 
 *Furthermore the forms is styled to enable the user to immediately be able to select their preffered deal thanks to "Select" element.
->>> contact for foto
+![Contact-us Screenshot](assets/images/contact-form.png)
 
-## Form Dummp page
+## Form Dump page
 
-* Te website contains a form tha when is filled in will redirect the consumer to a thank you message page.
-* This sumbittimg message is created linking the form button to an internal html page
->>> form dump foto
+* The website contains a form tha when is filled in will redirect the consumer to a thank you message page.
+* This sumbittimg message is created linking the form button to an internal html page.
+![Form-dump Screenshot](assets/images/form-dump-screenshot.png)
 
 ## Technologies used
 ### Two main languages : 
 
 - [Html5](https://en.wikipedia.org/wiki/HTML5) 
 - [CSS3](https://en.wikipedia.org/wiki/CSS3)
+
+## Testing
+* the testing of the entir website has been done gradually while building the site.
+Testin was made using Google Chrome, mainly via Dev Tool.
+* There were several issue regarding the background images, footer and flexbox property: <br>
+- Navigation link were not alligned to the header logo.
+* Fixed this by setting a proper line height.
+- Background images were not covering the entire section/div. 
+* Fixed this by setting a background-cover property.
+- Join now button was being covered beghind the background;
+* Fixed by setting position to absolute.
+- Extra Services section was not contained inside its section due to larger with property set in pixels.
+* Fixed using flexbox and width in percentages.
+- Footer presented a white space at the bottom. 
+* Fixed by removing height and setting padding.
+- All pages were giving a poor performange on different size devices.
+* Fixed by changing initial pixel measurement to %.
+
+### Validator Testing
+
