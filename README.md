@@ -1,4 +1,4 @@
-# Get fit gym
+# Get Fit Gym
 
 This is the official Get Fit Gym website. From its title you can notice that this fictional site provides services related to fitness, group courses and consulting regarding nutrition and overall personal training. 
 The goal is to create a welcoming and user friendly "place" for people who need motivation in order to achieve their fitness goals in Amsterdam and other surrounding cities.
@@ -30,7 +30,7 @@ This website contains 3 main pages: Home, Pricing and Contact us form. <br>
  * The colors used are mainly black, white and a neon shade of green (rgb...)
  * this strong combination is functional to the content and was chosen to attract users attention immediately.
  * The colors, combined  with eye-catching backgrounds foreshows the content of the website with no further reading.
- Please find the color palette: 
+ Please find the color palette: <br>
 ![Palette view](assets/images/color-palette.png)
  ## Tipography
 
@@ -126,7 +126,7 @@ Fixed by setting the position to absolute.
 Fixed using flexbox and width in percentages.
 * Footer presented a white space at the bottom. 
 Fixed by removing height and setting padding.
-*All pages were giving a poor performance on different size devices.
+* All pages were giving a poor performance on different size devices.
 Fixed by changing initial pixel measurement to %.
 
 ### Validator Testing
@@ -139,7 +139,7 @@ Validate HTML code via [W3C Validator](https://bit.ly/3yX89NX)
 ![HTML Screenshot](assets/images/html-validator-screenshot.png)
 
 ### Lighthouse Testing
-![Lifgthouse Screenshot](assets/images/lighthouse-testing.png)
+![Lighthouse Screenshot](assets/images/lighthouse-testing.png)
 
 ## Unfixed Bugs
 The website doesn't seem to be 100% responsive to all devices. Contact page image is not responsive. By applying responsive styles the appearence is pixelated. It meant changing completely the background, therefore on small-sized devices there is just black background.
