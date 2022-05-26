@@ -118,10 +118,10 @@ This project is build using 2 main technologie: HTML5 and CSS3.
 * the testing of the entir website has been done gradually while building the site.
 Testin was made using Google Chrome, mainly via Dev Tool.
 * There were several issue regarding the background images, footer and flexbox property: <br>
-- Navigation link were not alligned to the header logo.
-* Fixed this by setting a proper line height.
+* Navigation link were not alligned to the header logo.
+Fixed this by setting a proper line height.
 - Background images were not covering the entire section/div. 
-* Fixed this by setting a background-cover property.
+Fixed this by setting a background-cover property.
 - Join now button was being covered beghind the background;
 * Fixed by setting position to absolute.
 - Extra Services section was not contained inside its section due to larger with property set in pixels.
@@ -132,4 +132,9 @@ Testin was made using Google Chrome, mainly via Dev Tool.
 * Fixed by changing initial pixel measurement to %.
 
 ### Validator Testing
+Validate CSS code via [Jigsaw Validator](https://bit.ly/3lJK2Kz)
 
+![Css Screenshot](assets/images/css-validator screenshot.png)
+Validate HTML code via [W3C Validator](https://bit.ly/3yX89NX)
+
+![HTML Screenshot](assets/images/html-validator screenshot.png)
