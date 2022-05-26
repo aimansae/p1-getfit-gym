@@ -3,9 +3,11 @@
 This is the offical Get Fit Gym website. As from it's title you can notice that this fictional site provides services related to fitness, group courses and consulting regarding nutrition and overall personal training. 
 The goas is to create a welcoming and user frendly "place" for people who need motivation in order to achieve their fitness goals in Amsterdam and other surronding cities.
 
-Please find the live progect [here]()
+Please find the live project [here](https://ui.dev/amiresponsive?url=https://aimansae.github.io/p1-getfit-gym/)
 
-This website contains 3 main pages: Home, Pricing and Contact us form. 
+This website contains 3 main pages: Home, Pricing and Contact us form. <br>
+![Responsove Mockup](/workspace/p1-getfit-gym/assets/images/ami-responsive-get-fyt-jym.png)
+
 # UX (User Experience)
 ## Users Stories
 1. ### First time visitor goal
