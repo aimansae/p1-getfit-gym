@@ -1,9 +1,9 @@
-# GET FIT GYM
+# Get fit gym
 
 This is the offical Get Fit Gym website. As from it's title you can notice that this fictional site provides services related to fitness, group courses and consulting regarding nutrition and overall personal training. 
 The goas is to create a welcoming and user frendly "place" for people who need motivation in order to achieve their fitness goals in Amsterdam and other surronding cities.
 
-Please find the live project [here](https://ui.dev/amiresponsive?url=https://aimansae.github.io/p1-getfit-gym/)
+Please find the live project [here](https://aimansae.github.io/p1-getfit-gym/)
 
 This website contains 3 main pages: Home, Pricing and Contact us form. <br>
 ![Responsive Mockup](assets/images/ami-responsive-get-fyt-jym.png)
@@ -134,7 +134,57 @@ Fixed this by setting a background-cover property.
 ### Validator Testing
 Validate CSS code via [Jigsaw Validator](https://bit.ly/3lJK2Kz)
 
-![Css Screenshot](assets/images/css-validator screenshot.png)
+![Css Screenshot](assets/images/css-validator-screenshot.png) <br>
+
 Validate HTML code via [W3C Validator](https://bit.ly/3yX89NX)
 
-![HTML Screenshot](assets/images/html-validator screenshot.png)
+![HTML Screenshot](assets/images/html-validator-screenshot.png)
+
+### Lighthouse Testing
+![Lifgthouse Screenshot](assets/images/lighthouse-testing.png)
+
+## Unfixed Bugs
+The website doesnt seem to be 100% responsive to all devices. Contact page image is not responsive. By applyng reponsive styles the appearence is pixelated. It meant changing completly the background, therefore on small sized devices there is just black background.
+
+## Deployement
+* The project is deployed following the"Love Running practice Project.
+- The deployement is made via Git pod and Git hub. Every big step was committed and pushed through git pod terminal.
+
+Here are the steps taken:
+*  Log-in Github
+* click on "Your Repositories" and select the one to be deployed
+* Click on "Setting" at top of the page
+* Click on "Pages" on the left side
+* Change Source by selcting Main Branch and click on "Save"
+* The website is deployed and a link to the live version is generated.
+[here](https://aimansae.github.io/p1-getfit-gym/) is the live link.
+
+## Credits
+This is the first portfolio project from Code Institute. The website is heavily inspired by Love Running Project studied through the course.
+
+
+Code Institute Slack community was consulted to check if fellow students are having the same issues. The given soutions/ advices were applied to Get Fit Gym site. <br>
+
+* Code institute Tutors were consulted especially for reponsive stles, background images.
+* Slack Fellow students helped solving additional bugs
+* Mentor Martina Terlevic provided a huge support through advices,suggestions and motivational examples.
+(I took inspiration from Nacka Tomato Society site, created by a fellow student as it was shared by Martina for general insipiration and readme example)
+
+External sources for inspiration and code fixing are used: <br>
+* [W3schools](https://www.w3schools.com/)
+
+
+* Color Palette is generated thorugh [Colors](https://coolors.co/)
+
+* Google is the primary spot consulted for alternative coding, solutions and general inspiration.
+
+## Content:
+This is a complete fictional website, the content is alligned to a regular Gym Website with services explaination, offers/ packages and a contact form in order to select the preferred offer or for enquiries.
+
+## Media:
+* Images are taken from [Pexel](https://www.pexels.com/) and Google by filtering the licenced ones to avoid copyright issues
+* Upon completing the form a message is provived: [Form Submitted](https://bit.ly/3LJocBG)
+
+
+
+[Go to top](#get-fit-gym)
