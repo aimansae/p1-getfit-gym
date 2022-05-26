@@ -76,7 +76,6 @@ li a {
 #first-section {
     width: 100%;
 
-
 }
 
 .join-now {
@@ -118,8 +117,6 @@ li a {
     background-color: rgb(4, 9, 9);
     transform: skewY(180deg);
     overflow-y: auto;
-
-
 }
 
 #about ul {
@@ -142,8 +139,6 @@ h2 {
     letter-spacing: 6px;
     padding: 2%;
     margin-left: 2px;
-
-
 }
 
 #sevices-title {
@@ -167,9 +162,7 @@ h2 {
 #center-group-courses {
     padding: 2%;
     width: 33%;
-
 }
-
 
 h3 {
     text-align: center;
@@ -193,7 +186,6 @@ h3 {
     justify-content: space-between;
     text-align: center;
     padding-top: 20px;
-
 }
 
 .trainer-image,
@@ -202,7 +194,6 @@ h4 {
     border-radius: 60%;
     transition: transform .2s;
 }
-
 
 .trainer-image:hover {
     transform: scale(1.1)
@@ -220,12 +211,10 @@ footer {
     padding: 2%;
     width: 100%;
     background: black;
-
 }
 
 .social-media {
     text-align: center;
-
 }
 
 .social-media>li {
@@ -236,7 +225,6 @@ footer {
 .social-media i {
     font-size: 180%;
     color: rgb(0, 255, 51);
-
 }
 
 .social-media i:hover {
@@ -246,12 +234,10 @@ footer {
 /*pricing page*/
 
 
-
 #pricing-container {
 
     background: url('../images/boxing-gym-image.png') no-repeat center center;
     background-size: cover;
-
 }
 
 
@@ -266,7 +252,6 @@ footer {
     width: 100%;
     padding: 6%;
     margin-top: 15%;
-
 }
 
 .price {
@@ -283,9 +268,7 @@ footer {
 
     padding: 20px;
     text-align: center;
-
 }
-
 
 .button {
     background-color: rgb(0, 255, 51);
@@ -300,7 +283,6 @@ footer {
 
 .li-header {
     text-shadow: 12px 1px 6px #fff;
-
 }
 
 .amount {
@@ -308,12 +290,10 @@ footer {
     color: #fff;
     letter-spacing: 4px;
     text-shadow: 2px 2px 4px #fff;
-
 }
 
 .price:hover {
     background-color: #02361b7a;
-
 }
 
 .month-small {
@@ -325,7 +305,6 @@ footer {
     position: absolute;
     color: #fff;
     left: 40%;
-
 }
 
 /*contact page styling*/
@@ -334,7 +313,6 @@ footer {
     width: 100%;
     height: 950px;
     background-size: cover;
-
 }
 
 /*contact form stlyle*/
@@ -347,7 +325,6 @@ footer {
     color: #fff;
     font-weight: 900;
     letter-spacing: 3px;
-
 }
 
 #form>h2 {
@@ -364,10 +341,7 @@ footer {
     width: 80%;
     border: solid 2px #ffffff;
     margin: 5px 0 20px 0;
-
-
 }
-
 
 .text-input:hover {
     border: solid 4px rgb(0, 255, 51);
@@ -386,7 +360,6 @@ option {
     letter-spacing: 2px;
     font-style: italic;
     font-size: x-small;
-
 }
 
 input[type=submit] {
@@ -405,12 +378,13 @@ input[type=submit]:hover {
 }
 
 /*form dump stryling*/
+
+
 #filled-form-section {
     background: url('../images/woman-mirror-workout.jpg') no-repeat;
     width: 100%;
     height: 950px;
     background-size: cover;
-
 }
 
 #thanks-message {
@@ -420,16 +394,14 @@ input[type=submit]:hover {
     font-size: large;
     top: 50%;
     left: 30%;
-
-
 }
 
 /*media queries*/
 
+
 @media screen and (min-width:480px) and (max-width:1000px) {
     #gym-logo {
         font-size: 200%;
-
     }
 
     #nav-links {
@@ -468,7 +440,6 @@ input[type=submit]:hover {
         width: 85%;
         height: 500px;
         padding-top: 2%;
-
     }
 
     h2 {
@@ -484,7 +455,6 @@ input[type=submit]:hover {
         float: left;
         width: 100%;
         justify-content: center;
-
     }
 
     #center-group-courses {
@@ -493,36 +463,29 @@ input[type=submit]:hover {
     }
 
     /* pricing page responsivness*/
+
+
     .pricing-lists {
-
-
         width: 100%;
     }
 
     /*contact responsivness*/
-    #contact-section {
-        background: url('../images/girl-fitness-image.jpg') no-repeat;
-        width: 100%;
-        height: 950px;
-        background-size: cover;
-    }
+
 
     #form {
-        margin: 10%;
+        margin: 12%;
     }
+
     /*form dump responsivness*/
 
+
     #filled-form-section {
-
         height: 980px;
-
     }
-
 
     #thanks-message {
         left: 10%;
         top: 40%;
-
     }
 
     #thanks-message p {
@@ -534,10 +497,10 @@ input[type=submit]:hover {
 
 /*smaller devices*/
 
+
 @media screen and (min-width:0) and (max-width:555px) {
+
     #nav-links {
-
-
         float: left;
         font-size: 90%;
         letter-spacing: normal;
@@ -563,7 +526,6 @@ input[type=submit]:hover {
         line-height: 50px;
     }
 
-
     #first-section {
         width: auto;
     }
@@ -571,10 +533,6 @@ input[type=submit]:hover {
     .join-now {
         font-size: 100%;
     }
-
-
-
-
 
     #hero-image {
 
@@ -584,7 +542,6 @@ input[type=submit]:hover {
 
     #gym-logo {
         font-size: 200%;
-
     }
 
     #about {
@@ -593,12 +550,10 @@ input[type=submit]:hover {
 
     #about p {
         text-align: justify;
-
     }
 
     #about ul {
         text-align: left;
-
     }
 
     #services-box {
@@ -616,8 +571,6 @@ input[type=submit]:hover {
         float: left;
         width: 100%;
         justify-content: center;
-
-
     }
 
     h2 {
@@ -634,8 +587,6 @@ input[type=submit]:hover {
         height: auto;
         padding-bottom: 5%;
         margin-top: 10%;
-
-
     }
 
     #images-box {
@@ -647,7 +598,6 @@ input[type=submit]:hover {
         float: left;
         justify-content: center;
         margin-left: 20%;
-
     }
 
     #bram-image {
@@ -666,14 +616,7 @@ input[type=submit]:hover {
         margin: 8%;
     }
 
-
-
-
-
     /*pricing responsiveness*/
-
-
-
 
 
     .pricing-lists {
@@ -688,7 +631,6 @@ input[type=submit]:hover {
 
     .columns1,
     .columns2 {
-
         width: 80%;
         margin-top: 15%;
         margin-left: 15%;
@@ -703,8 +645,7 @@ input[type=submit]:hover {
 
 
     .text-input {
-        height: 40px;
-
+        height: 30px;
     }
 
     #form {
@@ -725,22 +666,26 @@ input[type=submit]:hover {
     }
 
     /*contact form dump responsivness*/
+
+
     #filled-form-section {
         height: 710px;
         background-size: cover;
-    
-    }
-    footer {padding-bottom:5%}
     }
 
-    #thanks-message {
-        font-size: 100%;
-        top: 50%;
-        left: unset;
+    footer {
+        padding-bottom: 5%
     }
+}
 
-    #thanks-message p {
-        font-size: larger;
-        font-weight: 900;
-    }
+#thanks-message {
+    font-size: 100%;
+    top: 50%;
+    left: unset;
+}
+
+#thanks-message p {
+    font-size: larger;
+    font-weight: 900;
+}
 }
