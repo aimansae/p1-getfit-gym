@@ -180,16 +180,12 @@ h3 {
 
 #images-box {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
     justify-content: space-between;
     text-align: center;
     padding-top: 20px;
 }
 
-.trainer-image,
-h4 {
+.trainer-image{
     width: 50%;
     border-radius: 60%;
     transition: transform .2s;
@@ -293,7 +289,7 @@ footer {
 }
 
 .price:hover {
-    background-color: #02361b7a;
+    background-color:black;
 }
 
 .month-small {
@@ -365,10 +361,8 @@ option {
 input[type=submit] {
     background-color: rgb(0, 255, 51);
     font-size: 25px;
-    margin: 2px;
     padding: 5px 5px;
     margin: 10px;
-    justify-content: left;
     transform: skew(-10deg);
 }
 
