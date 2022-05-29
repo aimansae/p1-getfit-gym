@@ -115,6 +115,7 @@ This project is built using 2 main technologies: HTML5 and CSS3.
 ## Testing
 * The testing of the entire website has been done gradually while building the site.
 * Testing was made using Google Chrome, mainly via Dev Tool.
+* All links and the form are tested and work correctly.
 * There were several issues regarding the background images, footer and flexbox property: Navigation links were not aligned to the header logo.
 Fixed this by setting a proper line-height.
 * Background images were not covering the entire section/div. 
