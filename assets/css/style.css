@@ -400,26 +400,29 @@ input[type=submit]:hover {
     body {
         overflow-x: hidden
     }
-/* homepage join now button responsivness*/
+
+    /* homepage join now button responsivness*/
 
     .join-now {
         position: relative;
         margin-right: 30%
     }
-/* contact page responsivness*/
+
+    /* contact page responsivness*/
 
     #contact-section {
         min-height: 100vh;
     }
 
-/* pricing page responsivness*/
+    /* pricing page responsivness*/
 
-#pricing-container {
-    min-height: 100vh;
-}
-/*form dump responsivness*/
+    #pricing-container {
+        min-height: 100vh;
+    }
 
- #filled-form-section {
+    /*form dump responsivness*/
+
+    #filled-form-section {
         min-height: 100vh;
     }
 }
@@ -502,11 +505,11 @@ input[type=submit]:hover {
         width: 100%;
     }
 
-/* contact page responsivness*/
+    /* contact page responsivness*/
 
-#contact-section {
-    min-height: 100vh;
-}
+    #contact-section {
+        min-height: 100vh;
+    }
 
     #form {
         margin: 12%;
@@ -684,49 +687,45 @@ input[type=submit]:hover {
     body {
         overflow-x: hidden
     }
-}
 
-.text-input {
-    height: 30px;
-}
+    .text-input {
+        height: 30px;
+    }
 
-#form {
-    font-size: 80%
-}
+    #form {
+        font-size: 80%
+    }
 
-input::placeholder {
-    color: transparent;
-}
+    input::placeholder {
+        color: transparent;
+    }
 
-input[type=submit] {
-    font-size: 80%;
-}
+    input[type=submit] {
+        font-size: 80%;
+    }
 
-input[type=submit]:hover {
-    color: #fff;
-    font-size: unset;
-}
+    input[type=submit]:hover {
+        color: #fff;
+        font-size: unset;
+    }
 
-/*contact form dump responsivness*/
-
-
-#filled-form-section {
-    height: 710px;
-    background-size: cover;
-}
-
-footer {
-    padding-bottom: 5%
-}
+    /*contact form dump responsivness*/
 
 
-#thanks-message {
-    font-size: 100%;
-    top: 50%;
-    left: unset;
-}
+    #filled-form-section {
+        height: 710px;
+        background-size: cover;
+    }
 
-#thanks-message p {
-    font-size: larger;
-    font-weight: 900;
+
+    #thanks-message {
+        font-size: 100%;
+        top: 50%;
+        left: unset;
+    }
+
+    #thanks-message p {
+        font-size: larger;
+        font-weight: 900;
+    }
 }
