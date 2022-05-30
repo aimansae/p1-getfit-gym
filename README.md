@@ -8,26 +8,26 @@ Please find the live progect [here]()
 This website contains 3 main pages: Home, Pricing and Contact us form. 
 # UX (User Experience)
 ## Users Stories
-1. ### First time visitor goal
+1. ### First-time visitor Goal
 
  * as a first time user I want to find an innovative looking gym website
  * as a first time user I want to be able to easily navigate from different parts of the site
  * as a first time user I want to be able contact or ask for information within a few steps
 
- 2. ### Existing Users
+ 2. ### Existing Users Goal
 
  * as a member I want to checkout if there are additional courses or fitness options
  * as a member I want to be able to contact the Gym within a few steps
  * as a member i want to be posted in case there are different pricing deals or offers.
 
  ## Design
- As this is my firts prject the style and structure is heavily based on Love Running project, especialle the header and the footer.
+ As this is my first project the style and the structure are heavily based on "Love Running Project", especially the header and the footer.
 
- ### Colors Chosen
+ ### Colors
 
- * the color used are mainly black, white and a neon shade of green (rgb...)
- * this strong combination is functional to the content and were chosen to attract users attention immediately
- * the colors, combined  with eye catching backgrounds foreshows the content of the website with no further reading
+ * The colors used are mainly black, white and a neon shade of green (rgb(0, 255, 51)
+ * This strong combination is functional to the content and was chosen to attract users attention immediately
+ * The colors, combined  with the eye-catching backgrounds foreshow the content of the website with no further reading <br>
  Please find the color palette: 
  >>foto palette
 

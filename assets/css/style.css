@@ -400,6 +400,17 @@ input[type=submit]:hover {
 
 
 @media screen and (min-width:480px) and (max-width:1000px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    #contact-section {
+        min-height: 100vh;
+    }
+
+
     #gym-logo {
         font-size: 200%;
     }
@@ -642,40 +653,44 @@ input[type=submit]:hover {
     }
 
     /*contact us page responsivness*/
-
-
-    .text-input {
-        height: 30px;
+    html,
+    body {
+        overflow-x: hidden
     }
+}
 
-    #form {
-        font-size: 80%
-    }
+.text-input {
+    height: 30px;
+}
 
-    input::placeholder {
-        color: transparent;
-    }
+#form {
+    font-size: 80%
+}
 
-    input[type=submit] {
-        font-size: 80%;
-    }
+input::placeholder {
+    color: transparent;
+}
 
-    input[type=submit]:hover {
-        color: #fff;
-        font-size: unset;
-    }
+input[type=submit] {
+    font-size: 80%;
+}
 
-    /*contact form dump responsivness*/
+input[type=submit]:hover {
+    color: #fff;
+    font-size: unset;
+}
+
+/*contact form dump responsivness*/
 
 
-    #filled-form-section {
-        height: 710px;
-        background-size: cover;
-    }
+#filled-form-section {
+    height: 710px;
+    background-size: cover;
+}
 
-    footer {
-        padding-bottom: 5%
-    }
+footer {
+    padding-bottom: 5%
+}
 }
 
 #thanks-message {
