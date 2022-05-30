@@ -370,7 +370,7 @@ input[type=submit]:hover {
     font-size: 30px;
 }
 
-/*form dump stryling*/
+/*form dump styling*/
 
 
 #filled-form-section {
@@ -393,23 +393,37 @@ input[type=submit]:hover {
 
 /*responsive design for screens with min width 1024px*/
 
+
 @media only screen and (min-width: 1024px) {
 
     html,
     body {
         overflow-x: hidden
     }
+/* homepage join now button responsivness*/
 
     .join-now {
         position: relative;
         margin-right: 30%
     }
+/* contact page responsivness*/
 
     #contact-section {
-        min-height: 100vh
+        min-height: 100vh;
     }
 
+/* pricing page responsivness*/
+
+#pricing-container {
+    min-height: 100vh;
 }
+/*form dump responsivness*/
+
+ #filled-form-section {
+        min-height: 100vh;
+    }
+}
+
 /*responsive design for screens with min width 480px max width 1000px*/
 
 @media screen and (min-width:480px) and (max-width:1000px) {
@@ -418,11 +432,6 @@ input[type=submit]:hover {
     body {
         overflow-x: hidden;
     }
-
-    #contact-section {
-        min-height: 100vh;
-    }
-
 
     #gym-logo {
         font-size: 200%;
@@ -493,8 +502,11 @@ input[type=submit]:hover {
         width: 100%;
     }
 
-    /*contact responsivness*/
+/* contact page responsivness*/
 
+#contact-section {
+    min-height: 100vh;
+}
 
     #form {
         margin: 12%;
@@ -504,7 +516,7 @@ input[type=submit]:hover {
 
 
     #filled-form-section {
-        height: 980px;
+        min-height: 100vh;
     }
 
     #thanks-message {
