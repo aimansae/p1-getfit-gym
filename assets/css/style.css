@@ -185,7 +185,7 @@ h3 {
     padding-top: 20px;
 }
 
-.trainer-image{
+.trainer-image {
     width: 50%;
     border-radius: 60%;
     transition: transform .2s;
@@ -288,7 +288,7 @@ footer {
 }
 
 .price:hover {
-    background-color:black;
+    background-color: black;
 }
 
 .month-small {
@@ -391,6 +391,26 @@ input[type=submit]:hover {
 
 /*media queries*/
 
+/*responsive design for screens with min width 1024px*/
+
+@media only screen and (min-width: 1024px) {
+
+    html,
+    body {
+        overflow-x: hidden
+    }
+
+    .join-now {
+        position: relative;
+        margin-right: 30%
+    }
+
+    #contact-section {
+        min-height: 100vh
+    }
+
+}
+/*responsive design for screens with min width 480px max width 1000px*/
 
 @media screen and (min-width:480px) and (max-width:1000px) {
 
@@ -502,6 +522,7 @@ input[type=submit]:hover {
 
 /*smaller devices*/
 
+/*responsive design for screens with min width 0 max width 555px*/
 
 @media screen and (min-width:0) and (max-width:555px) {
 
@@ -682,17 +703,10 @@ input[type=submit]:hover {
     background-size: cover;
 }
 
-<<<<<<< HEAD
 footer {
     padding-bottom: 5%
 }
-}
-=======
-    footer {
-        padding-bottom: 5%
-    }
 
->>>>>>> f81c73790596360a516ff11dbd66facea7951593
 
 #thanks-message {
     font-size: 100%;
@@ -704,9 +718,4 @@ footer {
     font-size: larger;
     font-weight: 900;
 }
-}
-
-/*readme style*/
-.palette {
-    height:10px;
 }

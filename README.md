@@ -23,17 +23,6 @@ This website contains 3 main pages: Home, Pricing and Contact us form. <br>
  * as a member I want to be posted in case there are different pricing deals or offers.
 
  ## Design
-<<<<<<< HEAD
- As this is my first project the style and the structure are heavily based on "Love Running Project", especially the header and the footer.
-
- ### Colors
-
- * The colors used are mainly black, white and a neon shade of green (rgb(0, 255, 51)
- * This strong combination is functional to the content and was chosen to attract users attention immediately
- * The colors, combined  with the eye-catching backgrounds foreshow the content of the website with no further reading <br>
- Please find the color palette: 
- >>foto palette
-=======
  As this is my first project the style and structure are heavily based on "Love Running Project", especially the header and the footer.
 
  ## Colors Chosen
@@ -44,7 +33,6 @@ This website contains 3 main pages: Home, Pricing and Contact us form. <br>
  Please find the color palette: <br>
 ![Palette view](assets/images/color-palette.png)
  ## Tipography
->>>>>>> f81c73790596360a516ff11dbd66facea7951593
 
  * Google Fonts [Anton](https://fonts.google.com/specimen/Anton) and [Heebo](https://fonts.google.com/specimen/Heebo) are used. Fonts are directly imported at the top of the CSS stylesheet with Sans-Serif as a Fallback Font.
  ## Images
