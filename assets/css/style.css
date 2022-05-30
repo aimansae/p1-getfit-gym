@@ -180,16 +180,12 @@ h3 {
 
 #images-box {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
     justify-content: space-between;
     text-align: center;
     padding-top: 20px;
 }
 
-.trainer-image,
-h4 {
+.trainer-image{
     width: 50%;
     border-radius: 60%;
     transition: transform .2s;
@@ -202,7 +198,6 @@ h4 {
 h4 {
     letter-spacing: 3px;
     font-weight: bold;
-    padding-left: 25%;
 }
 
 /* footer styling */
@@ -293,7 +288,7 @@ footer {
 }
 
 .price:hover {
-    background-color: #02361b7a;
+    background-color:black;
 }
 
 .month-small {
@@ -365,10 +360,8 @@ option {
 input[type=submit] {
     background-color: rgb(0, 255, 51);
     font-size: 25px;
-    margin: 2px;
     padding: 5px 5px;
     margin: 10px;
-    justify-content: left;
     transform: skew(-10deg);
 }
 
@@ -497,6 +490,7 @@ input[type=submit]:hover {
     #thanks-message {
         left: 10%;
         top: 40%;
+
     }
 
     #thanks-message p {
@@ -688,10 +682,17 @@ input[type=submit]:hover {
     background-size: cover;
 }
 
+<<<<<<< HEAD
 footer {
     padding-bottom: 5%
 }
 }
+=======
+    footer {
+        padding-bottom: 5%
+    }
+
+>>>>>>> f81c73790596360a516ff11dbd66facea7951593
 
 #thanks-message {
     font-size: 100%;
@@ -703,4 +704,9 @@ footer {
     font-size: larger;
     font-weight: 900;
 }
+}
+
+/*readme style*/
+.palette {
+    height:10px;
 }
